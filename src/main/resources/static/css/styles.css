@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+#main {
+	margin: 20px;	
+}
+
+.cell {
+	width: 10px;
+	height: 10px;
+	border-right: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	display: inline-block;
+	float: left;
+}
+
+.cell.black {
+	background-color: black;	
+}
+
+.top-cell {
+	border-top: 1px solid #dcdcdc;
+}
+
+.left-cell {
+	border-left: 1px solid #dcdcdc;
+}
+
+.clear {
+	clear: both;
+}

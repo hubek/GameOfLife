@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Game of Life</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+    <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.2.0/css/bootstrap.min.css"
+        th:href="@{http://cdn.jsdelivr.net/webjars/bootstrap/3.2.0/css/bootstrap.min.css}"
+        rel="stylesheet" media="screen" />
+    <link href="../static/css/styles.css"
+        th:href="@{/css/styles.css}"
+        rel="stylesheet" media="screen" />
+    <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.1/jquery.min.js"
+		th:src="@{http://cdn.jsdelivr.net/webjars/jquery/2.1.1/jquery.min.js}"></script>
+    <script src="../static/js/core.js"
+        th:src="@{/js/core.js}"></script>
+</head>
+<body>
+<h3>Game of Life</h3>
+<p>Click on cell to change its color.</p>
+<p>Refresh page to start again.</p>
+<input id="start-button" type="submit" value="Start" />
+<div id="main" />
+</body>
+</html>
